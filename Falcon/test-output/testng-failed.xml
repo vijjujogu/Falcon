@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Falcon App Test Cases(failed)">
+    <classes>
+      <class name="com.falcon.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyProductlinkTest"/>
+          <include name="clickonLinkByNameTest"/>
+        </methods>
+      </class> <!-- com.falcon.qa.testcases.DashboardPageTest -->
+      <class name="com.falcon.qa.testcases.ViewPageTest">
+        <methods>
+          <include name="verifyResultCountByToggle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.falcon.qa.testcases.ViewPageTest -->
+    </classes>
+  </test> <!-- Falcon App Test Cases(failed) -->
+</suite> <!-- Failed suite [Falcon] -->
