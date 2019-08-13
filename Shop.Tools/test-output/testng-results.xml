@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-13T19:44:38 IST" name="Default suite" finished-at="2019-08-13T19:45:14 IST" duration-ms="35883">
+    <groups>
+    </groups>
+    <test started-at="2019-08-13T19:44:38 IST" name="Default test" finished-at="2019-08-13T19:45:14 IST" duration-ms="35883">
+      <class name="com.shoptools.qa.testscripts.Scenario1">
+        <test-method signature="initialization()[pri:0, instance:com.shoptools.qa.testscripts.Scenario1@6e75aa0d]" started-at="2019-08-13T19:44:38 IST" name="initialization" finished-at="2019-08-13T19:44:51 IST" duration-ms="12843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="addProduct1ToCart()[pri:0, instance:com.shoptools.qa.testscripts.Scenario1@6e75aa0d]" started-at="2019-08-13T19:44:51 IST" name="addProduct1ToCart" finished-at="2019-08-13T19:45:03 IST" duration-ms="12195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct1ToCart -->
+        <test-method signature="addProduct2Tocart()[pri:0, instance:com.shoptools.qa.testscripts.Scenario1@6e75aa0d]" started-at="2019-08-13T19:45:03 IST" name="addProduct2Tocart" finished-at="2019-08-13T19:45:11 IST" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct2Tocart -->
+        <test-method signature="verifyTotalAmount()[pri:0, instance:com.shoptools.qa.testscripts.Scenario1@6e75aa0d]" started-at="2019-08-13T19:45:11 IST" name="verifyTotalAmount" finished-at="2019-08-13T19:45:14 IST" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalAmount -->
+      </class> <!-- com.shoptools.qa.testscripts.Scenario1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
